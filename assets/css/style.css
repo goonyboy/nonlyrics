@@ -1,0 +1,42 @@
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.headernavbar {
+    height: 100px;
+}
+
+.firstnav {
+    background-color: #292521;
+    height: 50px;
+}
+
+.secondnav {
+    background-color: #293333;
+    height: 50px;
+}
+
+.rentview {
+    background: url('../img/auto1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.bonus {
+    height: 300px;
+    color: #000000;
+}
+.cars {
+    height: 600px;
+    background-color: #293333;
+}
+footer {
+    background-color: #292521;
+    height: 150px;
+}
