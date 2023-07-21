@@ -4,20 +4,92 @@ body {
     font-size: 15px;
     margin: 0 auto;
     color: #fff;
+    min-width: 1200px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    resize: none;
+    text-decoration: none;
+    letter-spacing: .5px;
 }
 
 .headernavbar {
     height: 100px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    resize: 0;
+    text-decoration: none;
+}
+
+.headernavbar > div {
+    min-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0 40px;
 }
 
 .firstnav {
     background-color: #292521;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tel {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.tel span {
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+    font-weight: 300;
 }
 
 .secondnav {
     background-color: #293333;
     height: 50px;
+}
+
+nav {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .rentview {
